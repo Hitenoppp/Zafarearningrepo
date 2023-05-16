@@ -39,19 +39,19 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('FILDLT_CNL', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://B1:B1@cluster0.v4vng.mongodb.net/?retryWrites=true&w=majority')
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://Hiten:Hiten@cluster0.mzyd9.mongodb.net/hiten?retryWrites=true&w=majority')
 DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmiXone')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmiXone_Channel')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Fx1_Support')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviezzzprimesupport')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviezzzprime')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviezzprimesuppory')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/aboutme_tonystark/3')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/3')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
