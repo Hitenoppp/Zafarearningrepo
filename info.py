@@ -85,7 +85,7 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
 SHORTLINK_URL = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
-SHORTLINK_API = environ.get('URL_SHORTNER_WEBSITE_API', '37f6443b39b5f26c4315a2fe250a1faf75caf3b7')
+SHORTLINK_API = environ.get('URL_SHORTNER_WEBSITE_API', '62d381c9b0445288dad05c3e3244479e09a812c3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
